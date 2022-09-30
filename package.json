@@ -1,7 +1,7 @@
 {
-    "name": "@geometryzen/my-lib",
-    "version": "0.9.0",
-    "description": "My Library",
+    "name": "@geometryzen/fast-react-wrapper",
+    "version": "0.9.1",
+    "description": "@microsoft/fast-react-wrapper as system module",
     "main": "dist/cjs/index.js",
     "types": "dist/index.d.ts",
     "publishConfig": {
@@ -17,19 +17,19 @@
         "lint": "eslint . --ext .ts",
         "pages": "npm run docs:typedoc && gh-pages -d docs",
         "pretest": "npm run build",
-        "prepublishOnly": "npm run build && npm run test && npm run lint && npm run pages",
+        "prepublishOnly": "npm run build && npm run lint",
         "test": "jest"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/geometryzen/my-lib.git"
+        "url": "git+https://github.com/geometryzen/fast-react-wrapper.git"
     },
     "author": "David Geo Holmes",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/geometryzen/my-lib/issues"
+        "url": "https://github.com/geometryzen/fast-react-wrapper/issues"
     },
-    "homepage": "https://github.com/geometryzen/my-lib#readme",
+    "homepage": "https://github.com/geometryzen/fast-react-wrapper#readme",
     "devDependencies": {
         "@rollup/plugin-commonjs": "^22.0.2",
         "@rollup/plugin-node-resolve": "^14.1.0",
@@ -49,5 +49,8 @@
         "ts-node": "^10.9.1",
         "typedoc": "^0.23.15",
         "typescript": "^4.8.4"
+    },
+    "dependencies": {
+        "@microsoft/fast-react-wrapper": "^0.3.14"
     }
 }

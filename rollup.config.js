@@ -85,7 +85,7 @@ const options =
 export default [
     options,
     {
-        input: 'dist/esm/src/index.d.ts',
+        input: 'node_modules/@microsoft/fast-react-wrapper/dist/fast-react-wrapper.d.ts',
         output: [{ file: pkg.types, format: "esm" }],
         plugins: [dts()],
     }
