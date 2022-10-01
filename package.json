@@ -1,6 +1,6 @@
 {
     "name": "@geometryzen/fast-react-wrapper",
-    "version": "0.9.1",
+    "version": "0.9.3",
     "description": "@microsoft/fast-react-wrapper as system module",
     "main": "dist/cjs/index.js",
     "types": "dist/index.d.ts",
@@ -30,16 +30,19 @@
         "url": "https://github.com/geometryzen/fast-react-wrapper/issues"
     },
     "homepage": "https://github.com/geometryzen/fast-react-wrapper#readme",
+    "dependencies": {
+        "@microsoft/fast-react-wrapper": "^0.3.14"
+    },
     "devDependencies": {
         "@rollup/plugin-commonjs": "^22.0.2",
         "@rollup/plugin-node-resolve": "^14.1.0",
         "@rollup/plugin-typescript": "^8.5.0",
-        "@types/jest": "^29.1.0",
+        "@types/jest": "^29.1.1",
         "@typescript-eslint/eslint-plugin": "^5.38.1",
         "@typescript-eslint/parser": "^5.38.1",
         "eslint": "^8.24.0",
         "gh-pages": "^4.0.0",
-        "jest": "^29.1.1",
+        "jest": "^29.1.2",
         "open-cli": "^7.0.1",
         "rollup-plugin-dts": "^4.2.2",
         "rollup-plugin-peer-deps-external": "^2.2.4",
@@ -49,8 +52,5 @@
         "ts-node": "^10.9.1",
         "typedoc": "^0.23.15",
         "typescript": "^4.8.4"
-    },
-    "dependencies": {
-        "@microsoft/fast-react-wrapper": "^0.3.14"
     }
 }
