@@ -26,12 +26,23 @@ const options =
     output: [
         {
             banner,
+            file: './dist/esm/index.js',
+            format: 'esm',
+            sourcemap: true
+        },
+        {
+            file: './dist/esm/index.min.js',
+            format: 'esm',
+            sourcemap: true,
+            plugins: [terser()]
+        },
+        {
+            banner,
             file: './dist/system/index.js',
             format: 'system',
             sourcemap: true
         },
         {
-            banner,
             file: './dist/system/index.min.js',
             format: 'system',
             sourcemap: true,
@@ -48,7 +59,7 @@ const options =
 export default [
     options,
     {
-        input: 'node_modules/@microsoft/fast-react-wrapper/dist/fast-react-wrapper.d.ts',
+        input: './dist/esm/types/index.d.ts',
         output: [{ file: pkg.types, format: "esm" }],
         plugins: [dts()],
     }
