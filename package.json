@@ -1,6 +1,6 @@
 {
     "name": "@geometryzen/fast-react-wrapper",
-    "version": "0.9.7",
+    "version": "0.9.8",
     "description": "@microsoft/fast-react-wrapper as system module",
     "browser": "dist/system/index.min.js",
     "types": "dist/index.d.ts",
