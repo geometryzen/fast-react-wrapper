@@ -1,1 +1,2 @@
-export { provideReactWrapper } from "@microsoft/fast-react-wrapper";
+export { FoundationElementRegistryElement, provideReactWrapper, ReactEventMap, ReactEvents, ReactWrapper, ReactWrapperConfig, ReactWrapperProps } from "@microsoft/fast-react-wrapper";
+
