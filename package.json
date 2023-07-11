@@ -35,10 +35,13 @@
         "@microsoft/fast-react-wrapper": "^0.3.18"
     },
     "peerDependencies": {
+        "@microsoft/fast-components": "^2.30.6",
         "@microsoft/fast-element": "^1.12.0",
         "react": "^18.2.0"
     },
     "devDependencies": {
+        "@microsoft/fast-components": "^2.30.6",
+        "@microsoft/fast-element": "^1.12.0",
         "@rollup/plugin-commonjs": "^25.0.2",
         "@rollup/plugin-node-resolve": "^15.1.0",
         "@rollup/plugin-terser": "^0.4.3",
