@@ -35,7 +35,7 @@
         "@microsoft/fast-react-wrapper": "^0.3.18"
     },
     "peerDependencies": {
-        "@microsoft/fast-element": "^1.10.5",
+        "@microsoft/fast-element": "^1.12.0",
         "react": "^18.2.0"
     },
     "devDependencies": {
